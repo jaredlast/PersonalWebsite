@@ -17,7 +17,7 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+  
   list-style-type: none;
   display: flex;
   margin: 15px;
@@ -31,7 +31,6 @@ a {
   color: #021f55;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
   text-decoration: none;
   border-radius: 15px;
 }
