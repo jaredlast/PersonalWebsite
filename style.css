@@ -34,3 +34,19 @@ a {
   text-decoration: none;
   border-radius: 15px;
 }
+
+.main{
+  border-radius: 15px;
+  border: 3px solid aquamarine;
+  display: flex;
+}
+
+p {
+  padding: 5px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
