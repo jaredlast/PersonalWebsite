@@ -4,13 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 3px solid #021f55;
   border-radius: 15px;
+  margin: 10px;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
-  color: tomato;
+  color: rgb(212, 44, 14);
   background:white;
   padding: 4px 15px;
   border-radius: 15px;
@@ -37,7 +39,7 @@ a {
 
 .main{
   border-radius: 15px;
-  border: 3px solid aquamarine;
+  border: 3px solid #021f55;
   display: flex;
 }
 
@@ -48,5 +50,17 @@ p {
 .images {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.br {
+  display: block;
+  margin-bottom: 1em;
 }
