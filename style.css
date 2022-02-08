@@ -106,6 +106,8 @@ img {
   border-radius: 15px;
   margin-top: 25px;
   text-align: center;
+  width: 33%;
+  min-width: 300px;
   max-width: 400px;
   padding-bottom: 15px;
 }
