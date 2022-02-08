@@ -42,6 +42,13 @@ a {
   justify-content: space-between;
 }
 
+.reviewpage {
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 p {
   padding: 15px;
   background: rgba(79, 136, 158, 0.332);
