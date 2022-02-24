@@ -118,3 +118,22 @@ img {
   max-width: 400px;
   padding-bottom: 15px;
 }
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  border-radius: 15px;
+}
+
+.horse-of-fame {
+  background: rgba(1, 107, 1, 0.332);
+  border-radius: 15px;
+  margin-top: 25px;
+  text-align: center;
+  width: 33%;
+  min-width: 300px;
+  max-width: 400px;
+  padding-bottom: 15px;
+}
