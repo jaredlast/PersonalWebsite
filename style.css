@@ -72,7 +72,7 @@ p {
 
 .images-right {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   padding: 10px;
   margin: 10px;
@@ -136,4 +136,9 @@ table {
   min-width: 300px;
   max-width: 400px;
   padding-bottom: 15px;
+}
+
+.mySlides img {
+    margin-right: auto;
+    margin-left: auto;
 }
