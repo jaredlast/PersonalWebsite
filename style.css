@@ -122,31 +122,37 @@ img {
 .sakai {
   border-style: solid;
   border-color: #E72022; /* red */
+  border-width: 2px;
 }
 
 .michiba {
   border-style: solid;
   border-color: #060270; /* blue */
+  border-width: 2px;
 }
 
 .kenichi {
   border-style: solid;
   border-color: #F9D12E; /* yellow */
+  border-width: 2px;
 }
 
 .nakamura {
   border-style: solid;
   border-color: #6D1985; /* purple */
+  border-width: 2px;
 }
 
 .morimoto {
   border-style: solid;
   border-color: #DEDEDE; /* silver */
+  border-width: 2px;
 }
 
 .ishinabe {
   border-style: solid;
   border-color: #237A00; /* green */
+  border-width: 2px;
 }
 
 table {
