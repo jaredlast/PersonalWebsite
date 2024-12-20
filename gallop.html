@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Horse Champs</title>
+  <title>2024</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
       <ul>
         <li><a href="./index.html">HOME</a></li>
         <li><a href="./consumed.html">MOVIES</a></li>
-        <li><a href="./gallop.html">HORSES</a></li>
+        <li><a href="./gallop.html">2024</a></li>
       </ul>
     </div>
     <div class="logo"><a href="index.html">JML</a></div>
@@ -25,48 +25,45 @@
       </ul>
     </div>
   </div>
-  <div class="reviewpage">
-    <div class="horse-of-fame">
-        <img class="reviews" src="./images/maximumrisk.jpeg" alt="Jean Claude Van Damme attending a funeral"><br>
-        <strong>Gallop Racer</strong><br>
-        PSX 1999<br class="br">
-        This is horse racing!
+  <div class="main">
+
+    <div class="images-centre">
+  <img class="mySlides" src="./images/2024/180sx.jpg" >
+  <img class="mySlides" src="./images/2024/BarredOwl.jpg" >
+  <img class="mySlides" src="./images/2024/DesMoinesCapitol.jpg" >
+  <img class="mySlides" src="./images/2024/DowntwownDesMoines.jpg" >
+  <img class="mySlides" src="./images/2024/Dragonfly.jpg" >
+  <img class="mySlides" src="./images/2024/GovTrail.jpg" >
+  <img class="mySlides" src="./images/2024/HawkFeeding.jpg" >
+  <img class="mySlides" src="./images/2024/Humming.jpg" >
+  <img class="mySlides" src="./images/2024/LadyBeetle.jpg" >
+  <img class="mySlides" src="./images/2024/Mississippi.jpg" >
+  <img class="mySlides" src="./images/2024/Mushrooms.jpg" >
+  <img class="mySlides" src="./images/2024/RainyMeadolark.jpg" >
+  <img class="mySlides" src="./images/2024/Regina.jpg" >
+  <img class="mySlides" src="./images/2024/SavannahFountain.jpg" >
+  <img class="mySlides" src="./images/2024/SummerTanager.jpg" >
+  <img class="mySlides" src="./images/2024/ZooLights.jpg" >      
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 4000); 
+}
+</script>
     </div>
-    <div class="horse-of-fame">
-      <img class="reviews" src="./images/a-better-tomorrow.jpeg" alt="Chow Yun Fat lighting a cigarette with a $100 bill"><br>
-      <strong>What a Horse!</strong><br>
-      G1 Champ<br class="br">
-      What a horse!
-    </div>
-
-    <div class="horse-of-fame">
-      <table>
-        <thead>
-        
-        <tr>
-        <th scope="col">Horse</th>
-        <th scope="col">Starts</th>
-        <th scope="col">Wins</th>
-        <th scope="col">Place</th>
-        </tr>
-        
-        </thead>
-
-        <tbody>
-
-          <tr>
-          <th>Champ Horse</th>
-          <td>15</td>
-          <td>2</td>
-          <td>5</td>
-          </tr>
-
-        </tbody>
-      
-      
-      </table>
-    
-    </div>
+  </div>
 
   </body>
 
