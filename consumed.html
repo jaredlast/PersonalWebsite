@@ -25,25 +25,45 @@
       </ul>
     </div>
   </div>
-  <div class="reviewpage">
-      <div class="blog sakai">
-          <img class="reviews" src="./images/maximumrisk.jpeg" alt="Jean Claude Van Damme attending a funeral"><br>
-          <strong>Battle Carrot!</strong><br>
-          Ringo Lam 1996<br class="br">
-        
-      </div>
-      <div class="blog michiba">
-        <img class="reviews" src="./images/a-better-tomorrow.jpeg" alt="Chow Yun Fat lighting a cigarette with a $100 bill"><br>
-        <strong>A Better Tomorrow</strong><br>
-        John Woo 1986<br class="br">
-        
-      </div>
+  <div class="main">
 
-      <div class="blog kenichi">
-        <img class="reviews" src="./images/VengeanceIsMine.png" alt="Police interviewing woman on train."><br>
-        <strong>Vengeance is Mine</strong><br>
-        Shohei Imamura 1979<br class="br">
-       
-      </div>
+    <div class="images-centre">
+  <img class="mySlides" src="./images/2024/180sx.jpg" >
+  <img class="mySlides" src="./images/2024/BarredOwl.jpg" >
+  <img class="mySlides" src="./images/2024/DesMoinesCapitol.jpg" >
+  <img class="mySlides" src="./images/2024/DowntownDesMoines.jpg" >
+  <img class="mySlides" src="./images/2024/Dragonfly.jpg" >
+  <img class="mySlides" src="./images/2024/GovTrail.jpg" >
+  <img class="mySlides" src="./images/2024/HawkFeeding.jpg" >
+  <img class="mySlides" src="./images/2024/Humming.jpg" >
+  <img class="mySlides" src="./images/2024/LadyBeetle.jpg" >
+  <img class="mySlides" src="./images/2024/Mississippi.jpg" >
+  <img class="mySlides" src="./images/2024/Mushrooms.jpg" >
+  <img class="mySlides" src="./images/2024/RainyMeadowlark.jpg" >
+  <img class="mySlides" src="./images/2024/SavannahFountain.jpg" >
+  <img class="mySlides" src="./images/2024/SummerTanager.jpg" >
+  <img class="mySlides" src="./images/2024/ZooLights.jpg" >      
+</div>
 
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 4000); 
+}
+</script>
+    </div>
   </div>
+
+  </body>
+
+  </html>
